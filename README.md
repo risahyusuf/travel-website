@@ -1,5 +1,5 @@
 # travel-website
-# Travel-website-Desktop-view 
+# Travel website mobile view
 
 # Table of content
 - Overview
@@ -19,7 +19,7 @@
 - Author
 
 ## Overview
-This project is a responsive travel landing page for desktop view. It showcases a travel landing page that highlights top destinations, reason to choose the service, special offers, visual trip documentation and a footer containing the social media handles. It has a user-friendly layout and aesthetic layout.
+This project is a responsive travel landing page for mobile view. It showcases a travel landing page that highlights top destinations, reason to choose the service, special offers, visual trip documentation and a footer containing the social media handles. It has a user-friendly layout and aesthetic layout.
 
 ## Project Features
 ### Header
@@ -73,7 +73,7 @@ This project is a responsive travel landing page for desktop view. It showcases 
 - Primary accent colour #13B0A8 (teal)
 - Background: White and soft gray shades
 -Responsive design
-- Ensures an optimised experience for desktop users
+- Ensures an optimised experience for mobile users
 - Layout adapts seamlessly for varying screen resolutions
 
 ## How to run
