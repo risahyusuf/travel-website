@@ -1,0 +1,282 @@
+:root {
+    --sky-blue-color: #25A59E;
+    --black-color: #262626;
+    --white-color: #FFFFFFCC;
+    --light-blue-color: #44D5CD;
+    --orange-color: #EE8F39;
+    overflow-x: clip;
+}
+@font-face {
+    font-family: "urbanist";
+    src: url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+}
+#Gilda{
+    font-family: Gilda-display;
+    font-weight: 400;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    line-height: 1.5;
+    background-color: var(--white-color);
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 375px;
+margin: 0 auto;
+padding: 0 15px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+     margin-top: 20px;
+     background-color: var(--white-color);
+    
+
+}
+
+nav .logo {
+    font-family: "Gilda Display", sans-serif;
+font-weight: 400;
+font-size: 16px;
+align-items: center;
+color: var(--sky-blue-color);
+}
+.destination-heading {
+    font-size: 30px;
+    text-align: left;
+}
+
+.destination-paragraph {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+/*Hero section*/
+
+.hero-section {
+position: relative;
+height: 100vh;
+padding-top: 100px;
+text-align: center;
+}
+
+.hero-section h1 {
+    position: relative;
+    z-index: 4;
+    font-family: "Gilda Display", serif;
+    font-size: 40px;
+}
+
+
+.hero-image {
+    width: 10px;
+    padding: 10px;
+   position: absolute;
+   margin: 200px;
+   top: 0;
+    margin-left: 160px;
+    height: 50%;
+    z-index: 0;
+}
+
+.blurry-background {
+    margin-left: -140px;
+    position: absolute;
+    top: 1px;
+    height: 100%;
+    z-index: 1;
+}
+
+.orange-background {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 65%;
+    z-index: 2;
+}
+
+.couple-image {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: auto;
+    height: 80%;
+    transform: translateX(-50%);
+    z-index: 3;
+
+
+}
+
+.destination-container {
+    padding: 10px 0;
+    background-color: var(--white-color);
+    text-align: center;
+
+}
+
+.destination-item {
+    margin-top: 20px;
+}
+
+.destination-image {
+    width: 100%;
+    border-radius: 5px;
+    transform: rotate(180deg);
+
+}
+
+.destination-item h2 {
+font-size: 16px;
+color: var(--black-color);
+margin-top: 10px;
+text-align: justify;
+
+
+}
+
+.location {
+    display: flex;
+    justify-content: flex-start;
+    padding:16px;
+top: 0;
+left: 0;
+width: 100%;
+
+} 
+
+.why-choose-us {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.reason-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reason {
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    margin-left: 30px;
+    padding: 40px;
+
+}
+
+.reason-green {
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    margin-left: 30px;
+    background-color: #25A59E;
+padding: 40px;
+}
+
+.more-details {
+   margin-left: 95px; 
+   padding-top: 30px;
+}
+
+.arrow-icon {
+    margin-bottom: -3px;
+}
+
+.why-choose-us-heading {
+    margin-left: 20px;
+}
+
+.why-choose-us-paragraph {
+    margin-left: 13px;
+    padding-bottom: 30px;
+}
+
+.memorable-trip-heading {
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.travel {
+    color: #25A59E;
+
+}
+    .travel-2 {
+        color: #25A59E;
+    }
+
+    .memorable-trip-paragraph {
+        margin-left: 15px;
+    }
+
+    .couple-background {
+        margin-top: -90px;
+        margin-left: 30px;
+
+    }
+
+    .couple-map {
+        position: relative;
+        margin-bottom: -39px;
+    }
+
+    .trip-documentation-heading {
+        padding: 30px;
+    font-size: 35px;
+    text-align: center;
+    }
+
+    .documentation-video {
+        width: 300px;
+    margin: 10px;
+    }
+
+    .offer-heading {
+        width: 300px;
+    margin: 10px;
+    }
+
+    .footer-travel {
+        color: #25A59E;
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #262626;
+        margin: 5px;
+
+    }
+
+    .social-icons {
+        margin-left: -15px;
+    }
+
+    .rectangle-1 {
+        width: 142%;
+        margin-left: -42px;
+        position: relative;
+        bottom: 55px;
+    }
+
+    .rectangle-2 {
+        width: 142%;
+        margin-left: -42px;
+        position: relative;
+        bottom: 54px;
+    }
