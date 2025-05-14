@@ -4,7 +4,7 @@
     --white-color: #FFFFFFCC;
     --light-blue-color: #44D5CD;
     --orange-color: #EE8F39;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 @font-face {
     font-family: "urbanist";
@@ -25,10 +25,10 @@
 }
 
 body {
-    margin: 0;
     font-family: "Urbanist", sans-serif;
     line-height: 1.5;
     background-color: var(--white-color);
+    overflow: hidden;
 }
 
 .wrapper {
@@ -97,14 +97,14 @@ text-align: center;
 .blurry-background {
     margin-left: -140px;
     position: absolute;
-    top: 10px;
+    top: 1px;
     height: 100%;
     z-index: 1;
 }
 
 .orange-background {
     position: absolute;
-    bottom: -2%;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     height: 65%;
