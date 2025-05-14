@@ -4,6 +4,7 @@
     --white-color: #FFFFFFCC;
     --light-blue-color: #44D5CD;
     --orange-color: #EE8F39;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: "urbanist";
@@ -267,13 +268,15 @@ padding: 40px;
     }
 
     .rectangle-1 {
+        width: 142%;
         margin-left: -42px;
         position: relative;
-        bottom: 52px;
+        bottom: 55px;
     }
 
     .rectangle-2 {
+        width: 142%;
         margin-left: -42px;
         position: relative;
-        bottom: 50px;
+        bottom: 54px;
     }
